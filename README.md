@@ -1,2 +1,17 @@
 # mongohelloworld
 print hello world in Mongo
+mongo-db-atlas
+https://www.shellhacks.com/mongodb-show-collection-data-mongo-shell/
+Select the database to use and list collections:
+show dbs
+use
+show collections
+Execute one of the following commands to show collection data in MongoDB:
+db..find()
+
+db..find().pretty()
+
+While showing collection data it may be useful to limit the number documents:
+db..find().limit()
+
+db..find().pretty().limit()
